@@ -33,7 +33,7 @@ public class StandAloneTest extends BaseTest{
 	@Test(dataProvider= "getData", groups={"Purchase"})
 	public  void submitOrder(HashMap<String,String> input) throws InterruptedException, IOException {
 		// TODO Auto-generated method stub        
-		
+		//Used in CI/CD Integration
 		
 		ProductCatalogue productCatalogue = Lp.Loginapplication(input.get("email"), input.get("password"));
 
