@@ -19,7 +19,7 @@ public class ErrorValidations extends BaseTest {
 	public void ErrorMessageValidation() {
 		
 		 Lp.Loginapplication("vramana791@gmail.com", "Ramana@297");
-		Assert.assertEquals("Incorrect email password.", Lp.getErrorMessage());
+		Assert.assertEquals("Incorrect email or password.", Lp.getErrorMessage());
 	}
 	
 	@Test
